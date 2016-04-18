@@ -1,0 +1,34 @@
+{
+  "name": "consul-microagent",
+  "version": "0.0.1",
+  "description": "A basic library that allows for registration against Consul",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docketbook/consul-microagent.git"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.3",
+    "jsdoc":"3.4.0",
+    "jshint":"2.9.1-rc1",
+    "jscs":"2.6.0",
+    "restify":"*"
+  },
+  "dependencies": {
+    "validator":"4.4.0",
+    "assert-plus":"1.0.0",
+    "async":"1.5.0",
+    "consul":"0.19.0"
+  },
+  "author": "Dave Finster <df@docketbook.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/docketbook/consul-microagent/issues"
+  },
+  "homepage": "https://github.com/docketbook/consul-microagent#readme"
+}
