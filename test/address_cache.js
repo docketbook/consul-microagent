@@ -25,7 +25,7 @@ let logger = {
   info: function(input) {
     this.infoLog.push(input);
   },
-  err: function(input) {
+  error: function(input) {
     this.errorLog.push(input);
   },
   trace: function(input) {
